@@ -7,13 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/css/style.css">
 	<script type="text/javascript" src=""></script>
+	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 
 	<header class="col-12 header">
 		<div class="col-2 logo"><img src="/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/logo.png"></div>
-		<nav class="col-10 header">
-			<ul class="col-4 header">
+		<nav class="col-rest header w3-hide-small">
+			<ul class="header">
 				<li><a href="#video">Video</a></li>
 				<li><a href="#descripcion">Descripción</a></li>
 				<li><a href="#cartas">Cartas</a></li>
@@ -21,23 +24,60 @@
 		</nav>
 	</header>
 
-	<div id="video">
-		<video controls src="/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/videos/clash.mp4"></video>
+	<div id="video" class="col-12">
+		<video autoplay loop muted controls="principal" src="/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/videos/clash.mp4"></video>
+		<div class="col-3 logovideo w3-opacity-max"><img src="/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/logo.png"></div>
 	</div>
 
-	<div id="descripcion">
-		<p>Clash Royale es un juego de estrategia para móviles de tipo freemium, creado y desarrollado por Supercell, una empresa Finlandesa, a principios de 2016, Esta basado en el universo de Clash of Clans y su principal diferencia con el, es que el enfrentamiento entre dos jugadores se desarrolla en tiempo real.</p>
-
-		<p>Clash Royale se basa  en recoger cartas, que nos dan la posibilidad de obtener personajes y objetos para poder usar en La Arena contra otros jugadores.</p>
-
-		<p>A medida que ganamos enfrentamientos en la Arena, ganamos  Trofeos necesarios para ir creciendo y accediendo a nuevos objetivos y cartas.</p>
-
-		<p>En la Arena, nuestro objetivo es destruir las Torres de Corona (Crown Towers) que defienden un rey y sus arqueras y a su vez  no permitir que nos destruyan las nuestras.</p>
+	<div class="col-3 img-mago">
+		<img src="/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/mago.png">
+		<p class="mago">Electro Wizard</p>
 	</div>
 
-	<div id="cartas">
+	<div id="descripcion" class="col-9 descripcion">
+
+		<h1>Descripción del juego</h1>
+
+		<p>Clash Royale es un juego de estrategia para móviles de tipo freemium, creado y desarrollado por Supercell, una empresa Finlandesa, a principios de 2016. Está basado en el universo de Clash of Clans y su principal diferencia con el es que el enfrentamiento entre dos jugadores se desarrolla en tiempo real.</p>
+
+		<p>Clash Royale se basa  en recoger cartas que nos dan la posibilidad de obtener personajes y objetos para poder usar en La Arena contra otros jugadores.</p>
+
+		<p>A medida que ganamos enfrentamientos en la Arena ganamos Trofeos que son necesarios para ir creciendo como jugador.</p>
+
+		<p>En la Arena, nuestro objetivo es destruir las Torres de Corona (Crown Towers) que defienden un rey y sus arqueras. A su vez, no debemos permitir que destruyan las nuestras.</p>
+	</div>
+
+	<div id="cartas" class="col-12 cartas">
+
+		<hr>
+
+		<h1 class="h1c">Cartas de juego</h1>
+
+		<div class="carta barbaros w3-hover-opacity"></div>
+
+		<div class="carta esbirros w3-hover-opacity"></div>
+
+		<div class="carta lanzabolas w3-hover-opacity"></div>
+
+		<div class="carta montapuercos w3-hover-opacity"></div>
+
+		<div class="carta mosquetera w3-hover-opacity"></div>
+
+		<div class="carta principe w3-hover-opacity"></div>
+
+		<div class="carta babydragon w3-hover-opacity"></div>
+
+		<div class="carta caballero w3-hover-opacity"></div>
+
+		<div class="carta lanzadardos w3-hover-opacity"></div>
+
+		<div class="carta valquiria w3-hover"></div>
 		
 	</div>
+
+	<footer class="footer">
+		<h3>Apple Inc Copyright &copy</h3>
+	</footer>
 
 </body>
 </html>
