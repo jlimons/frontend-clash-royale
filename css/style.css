@@ -122,34 +122,34 @@ div.carta {
   display: inline-block; }
 
 div.barbaros {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/barbaros.jpg"); }
+  background-image: url("../images/barbaros.jpg"); }
 
 div.esbirros {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/esbirros.jpg"); }
+  background-image: url("../images/esbirros.jpg"); }
 
 div.lanzabolas {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/lanzabolas.jpg"); }
+  background-image: url("../images/lanzabolas.jpg"); }
 
 div.montapuercos {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/montapuercos.jpg"); }
+  background-image: url("../images/montapuercos.jpg"); }
 
 div.mosquetera {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/mosquetera.jpg"); }
+  background-image: url("../images/mosquetera.jpg"); }
 
 div.principe {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/principe.jpg"); }
+  background-image: url("../images/principe.jpg"); }
 
 div.babydragon {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/babydragon.jpg"); }
+  background-image: url("../images/babydragon.jpg"); }
 
 div.caballero {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/caballero.jpg"); }
+  background-image: url("../images/caballero.jpg"); }
 
 div.lanzadardos {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/lanzadardos.jpg"); }
+  background-image: url("../images/lanzadardos.jpg"); }
 
 div.valquiria {
-  background-image: url("/Users/jaimelimonsamperio/Desktop/frontendClashRoyale/images/valquiria.jpg"); }
+  background-image: url("../images/valquiria.jpg"); }
 
 footer {
   text-align: center;
